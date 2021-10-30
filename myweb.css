@@ -1,0 +1,312 @@
+/* Genearl part */
+html {
+    font-size: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    font-size: 1.2rem;
+}
+.bgr-flower {
+    
+    position: absolute;
+    opacity: 30%;
+    top: 70px;
+    right: 0;
+    z-index: -1;
+    width: 24%;
+}
+    
+.background-image {
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+.bg {
+    background-color: #faf1e6;
+}
+/* Navagation bar */
+.nav-right {
+    margin-right: 50px;
+}
+.nav-space {
+    padding-right: 30px;
+}
+.nav-link-font {
+    font-size: 1.1rem;
+    font-variant-caps: all-small-caps;
+    
+}
+.menu-icon {
+    font-size: 32px;
+}
+.menu-icon-space {
+    padding: 0 0.75rem;
+}
+.item-space {
+    padding: 0.5rem 1rem;
+}
+.item-icon-space {
+    padding-right: 0.7rem;
+}
+/* home page */
+.row_order {
+    flex-direction: row-reverse;
+}
+.container-width {
+    max-width: 700px;
+}
+.intro-bg {
+    background-color: #b6c868;
+}
+.intro-margin {
+    margin:auto;
+}
+.intro-font-lg {
+    font-family: Athelas;
+    font-size: 3rem;
+    color: #faf1e6;
+}
+.text_align {
+    text-align:center;
+}
+.profile-text {
+    font-family: Athelas;
+    font-size: 1rem;
+    color: #46947e;
+}
+.profile-name {
+    font-family: Salamat;
+    font-size: 4rem;
+    color: #46947e;
+}
+
+.spece-between-profile {
+    margin-top: 10rem;
+}
+.heading-font {
+    font-variant-caps: all-small-caps;
+
+}
+
+.detail-button{
+    color: #46947e;
+    padding-left: 0px;
+    font-variant-caps: all-small-caps;
+}
+.morework_button {
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+.row-space {
+    margin-top: 10vh;
+    margin-bottom: 50px;
+}
+.text-top-space {
+    margin-top: 100px;
+}
+.item-wrapper {
+    position: relative;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+.item-wrapper:hover .item-text {
+    color: #ffffff;
+    
+    
+}
+.image-darken {
+    transition: 1s;
+    filter: brightness(15%);
+}
+.item-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width:100%;
+    color: gray;
+    transition: 1s;   
+}
+.bottomlabel_space {
+    padding-top: 10rem;
+}
+
+.first-layer {
+    position: relative;
+    z-index: 0;
+}
+.secd-layer {
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.third-layer {
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+}
+.first-layer::before{
+    content: "Lorem ipsum dolor sit amet, consectetur";
+    position: absolute;
+    top:5rem;
+    right:3rem;
+    width: 100px;
+    z-index: 2;
+}
+.trangle_image {
+    background: url(./image/orenge.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/* about page */
+.intro-text-space {
+ max-width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+}
+.introduction-space {
+    margin-top: 150px;
+    
+}
+.image-space {
+    margin-left: 3rem;
+}
+.porfile-position {
+    width: 35%;
+    float: right;
+}
+/* contact page */
+.heading {
+    color: #707070;
+}
+.send-color {
+    background-color: #7E8449;
+    border: none;
+}
+.send-color:hover {
+    background-color: #464928;
+    border: none;
+}
+.send-hidden {
+    display: none;
+}
+
+/* View design page */
+.product-bottom-space{
+    margin-bottom: 5rem;
+}
+.icon-left-space {
+    margin-left: 100px !important;
+}
+.subnav-space {
+    margin-top: 13vh;   
+}
+.sub-nav-space {
+    margin-top: revert;
+}
+
+
+
+.logo-nail-height {
+    max-height: 200px;
+}
+.dialog-height {
+    height: 600px;
+}
+
+.dialog-image-space {
+    display: block;
+    margin: 0 auto;
+}
+.dialog-border {
+    border: none;
+}
+.dialog-image-math {
+    width:80%
+}
+.dialog-image-monster {
+    width:100%;
+}
+.dialog-image-bookcover {
+    width: 50%;
+}
+.logo-image-math{
+    width: 65%;
+}
+.logo-image-monster {
+    width: 72%;
+}
+.view-item-wrapper {
+    position: relative;
+    margin-top: 80px;
+}
+.cursor-point {
+    cursor: pointer;
+}
+
+/* UX/UI page */
+.sub-container {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+.research-image {
+    width: 100%;
+}
+.text-spce {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.image-spce {
+    margin-right:4rem;
+}
+
+/* booklet page */
+
+/* media for all */
+@media (min-width: 992px) {
+  .navbar-expand-lg .btn-group {
+    display: none;
+ }
+}
+
+@media (min-width: 768px) and (max-width:1025px) {
+    .sub-container {
+      max-width:50vw;
+      margin: 0 auto;
+   }
+  }
+
+@media (max-width: 767px) {
+    .sub-container {
+      max-width:90vw;
+      margin: 0 auto;
+   }
+  }
+
+@media (max-width:1024px) {
+    .item-text {
+        color: black;
+    }
+}
+
+@media (max-width: 415px) {
+    .porfile-position {
+        width: auto;
+        float: none;
+    }
+}
