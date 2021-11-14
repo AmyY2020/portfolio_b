@@ -75,12 +75,12 @@ p {
     text-align:center;
 }
 .profile-text {
-    font-family: Athelas;
+    font-family: Verdana;
     font-size: 1rem;
     color: #46947e;
 }
 .profile-name {
-    font-family: Salamat;
+    font-family: 'Bodoni Moda', serif;
     font-size: 4rem;
     color: #46947e;
 }
@@ -191,6 +191,33 @@ p {
     float: right;
 }
 /* contact page */
+.mail_scaled {
+    transform: scale(1.1);
+}
+.form_space {
+    padding: 0 2rem;
+}
+.modal_bgr {
+    background: #faf1e6;
+}
+.close_icon {
+    text-align: end;
+    margin: 1rem;
+}
+.contact_text {
+    text-align: center;
+    font-family: verdana;
+}
+.send_button {
+    color: white;
+    display: flex; 
+    margin: auto;
+    border-radius: 5px;
+    border:none;
+    background: #25555c;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
 .heading {
     color: #707070;
 }
@@ -204,6 +231,11 @@ p {
 }
 .send-hidden {
     display: none;
+}
+/* web design page */
+.web {
+    margin: auto;
+    margin-top: 5rem;
 }
 
 /* View design page */
@@ -263,6 +295,10 @@ p {
 .sub-container {
     max-width: 50vw;
     margin: 0 auto;
+    
+}
+.UX_topspace {
+    margin-top: 5rem;
 }
 .research-image {
     width: 100%;
