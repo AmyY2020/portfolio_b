@@ -69,6 +69,9 @@ body{
 .row_order {
     flex-direction: row-reverse;
 }
+.profile_image {
+    width: 50%;
+}
 .container-width {
     max-width: 700px;
 }
@@ -77,6 +80,7 @@ body{
 }
 .intro-margin {
     margin:auto;
+    padding: 0 1rem
 }
 .intro-font-lg {
     font-family: Athelas;
@@ -342,8 +346,24 @@ body{
     display: none;
  }
 }
+@media (max-width: 353px) {
+   .intro-font-lg {
+       font-size: 1.8rem;
+   }
+    
+}
+@media (min-width: 354px) and (max-width:510px){
+    .intro-font-lg {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 578px) {
+    .profile_image {
+        width: 30%;
+    }
+}
 
-@media (min-width: 768px) and (max-width:1025px) {
+/* @media (min-width: 768px) and (max-width:1025px) {
     .sub-container {
       max-width:50vw;
       margin: 0 auto;
@@ -368,4 +388,4 @@ body{
         width: auto;
         float: none;
     }
-}
+} */
