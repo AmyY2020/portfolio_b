@@ -1,22 +1,22 @@
 /* Genearl part */
 html {
     font-size: 1rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
     padding: 0px;
 }
 body{
-    font-size: 100%;
-    }
-    h1{
+    font-size: 100%; 
+    font-family: Verdana;
+}
+h1{
     font-size: 2.5em;
-    }
-    h2{
+}
+h2{
     font-size: 1.875em;
-    }
-    p{
+}
+p{
     font-size: 0.875em;
-    }
+}
 /* p {
     font-size: 1.2rem;
 } */
@@ -83,8 +83,8 @@ body{
     padding: 0 1rem
 }
 .intro-font-lg {
-    font-family: Athelas;
-    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     color: #faf1e6;
 }
 .text_align {
@@ -106,6 +106,8 @@ body{
 }
 .heading-font {
     font-variant-caps: all-small-caps;
+    font-size:1.3rem;
+    margin-bottom: 1rem;
 
 }
 
