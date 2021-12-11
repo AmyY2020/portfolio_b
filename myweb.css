@@ -183,7 +183,7 @@ p{
     color: white;
     transform: rotate(90deg);
     position: absolute;
-    top:5rem;
+    top:4em;
     right: -3em;
   
     z-index: 2;
@@ -368,10 +368,16 @@ p{
         width: 30%;
     }
 }
-@media (max-width:320px) {
+@media (max-width:320px){
     .first-layer::before{
         font-size: 1.5rem;
     }
+}
+@media (min-width:1190px) {
+    .first-layer::before{
+        font-size: 3rem;
+    }
+
 }
 
 /* @media (min-width: 768px) and (max-width:1025px) {
