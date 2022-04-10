@@ -6,16 +6,23 @@ html {
 }
 body{
     font-size: 100%; 
-    font-family: Verdana;
+    font-family: "Avenir Next";
 }
 h1{
-    font-size: 2.5em;
+    font-size: 40px;
 }
 h2{
-    font-size: 1.875em;
+    font-size: 32px;
+}
+h3 {
+    font-size: 24px;
+    font-family: Superclarendon;
+    font-weight: lighter;
+    
+
 }
 p{
-    font-size: 0.875em;
+    font-size: 16px;
 }
 
 /* p {
@@ -43,6 +50,11 @@ p{
     background-color: #faf1e6;
 }
 /* Navagation bar */
+.logo-size {
+    width: 40px;
+    height: auto;
+    margin-left: 2em;
+}
 .nav-right {
     margin-right: 50px;
 }
@@ -50,9 +62,9 @@ p{
     padding-right: 30px;
 }
 .nav-link-font {
-    font-size: 1.1rem;
-    font-variant-caps: all-small-caps;
-    
+    font-size: 0.9rem;
+    font-family: Superclarendon;
+    font-weight: lighter;
 }
 .menu-icon {
     font-size: 32px;
@@ -75,18 +87,30 @@ p{
     height: 100%;
 }
 .container-width {
-    max-width: 700px;
+    max-width: 800px;
 }
 .intro-bg {
     background-color: #b6c868;
 }
-.intro-margin {
-    margin:auto;
-    padding: 0 1rem
+.about-margin {
+    margin: auto;
+    
+}
+.intro-font-sm {
+    font-family: Superclarendon;
+    font-size: 1rem;
+    font-weight: lighter;
+    padding-top: 3em;
+    color: #faf1e6;
+}
+.intro-name {
+    font-family: Marydale;
+    color: #b6c868;
+    font-size: 3rem;
 }
 .intro-font-lg {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-family: Marydale;
+    font-size: 5em;
     color: #faf1e6;
 }
 .text_align {
@@ -107,26 +131,47 @@ p{
     margin-top: 5rem;
     margin-bottom: 5rem;
 }
+.intro-heading-font {
+    font-family: Superclarendon;
+    color:#b6c868;
+    font-weight: lighter;
+    font-size: 2rem;
+}
 .heading-font {
-    font-variant-caps: all-small-caps;
-    font-size:1.3rem;
+    font-family: Superclarendon;
+    font-size: 2em;
+    font-weight:lighter;
     margin-bottom: 1rem;
 
+}
+.sub-heading {
+    font-size: 0.5em;
 }
 
 .detail-button{
     color: #46947e;
     padding-left: 0px;
-    font-variant-caps: all-small-caps;
+    text-decoration: none;
+    font-family: Superclarendon;
+    font-weight: lighter;
+}
+.icon-size {
+    font-size: 10px;
 }
 .morework_button {
     font-size: 1.4rem;
     text-decoration: none;
 }
 
-.row-space {
-    margin-top: 10vh;
-    margin-bottom: 50px;
+.home-intro {
+    margin-left: 5em;
+}
+.position_of_intro {
+    
+    margin-top: 20vh;
+}
+.row-spase {
+    margin-top: 20vh;
 }
 .text-top-space {
     margin-top: 100px;
@@ -181,14 +226,14 @@ p{
 }
 .first-layer::before{
     content: "Responsive Design";
-    font-family:Arial, italic, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-family: "Avenir Next";
+    font-weight: lighter;
     color: white;
     transform: rotate(90deg);
     position: absolute;
     top:4em;
     right: -3em;
-  
+    font-size: 3em;
     z-index: 2;
 }
 .trangle_image {
@@ -199,10 +244,26 @@ p{
 
 
 /* about page */
+.about-bg {
+    background-color: white;
+}
+.highlight {
+    color: #eb5e53;
+    text-decoration: none;
+}
+.p-space {
+    margin-top: 2em;
+}
 .intro-text-space {
  max-width: 80%;
  margin-left: auto;
  margin-right: auto;
+}
+.intro-weight {
+    font-weight: bold;
+}
+.intro-font-size {
+    font-size: 1.5em;
 }
 .introduction-space {
     margin-top: 150px;
@@ -214,6 +275,14 @@ p{
 .porfile-position {
     width: 35%;
     float: right;
+}
+.colection-position {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.image-collection {
+    width: 70%;
+    height: auto;
 }
 /* contact page */
 .mail_scaled {
@@ -258,12 +327,20 @@ p{
     display: none;
 }
 /* web design page */
-.web {
+.web-position {
     margin: auto;
     margin-top: 5rem;
 }
 
-/* View design page */
+/* product design page */
+.lable-position {
+    margin: auto;
+}
+.lable-text {
+    font-family: Superclarendon;
+    color: white;
+    font-weight: lighter;
+}
 .product-bottom-space{
     margin-bottom: 5rem;
 }
@@ -277,7 +354,10 @@ p{
     margin-top: revert;
 }
 
-
+.bookcover {
+    width: 30%;
+    height: auto;
+}
 
 .logo-nail-height {
     max-height: 200px;
@@ -317,13 +397,40 @@ p{
 }
 
 /* UX/UI page */
+.ux-content-bg {
+    background-color: white;
+}
 .sub-container {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto;   
+}
+.ux-content-head {
+    font-family: Superclarendon;
+    color: black;
+    font-weight: lighter;
+}
+.ux-content-sub {
+    font-size: 1.2em;
+}
+.ux-head {
+    font-family: Superclarendon;
+    color:#faf1e6;
+    text-align: center;
+}
+.ux-sub-head {
+    font-family: "Avenir Next";
+    color:#faf1e6;
+    font-size:1.5em;
     
 }
-.UX_topspace {
-    margin-top: 5rem;
+.dicor-words {
+    font-family: Superclarendon;
+    color: rgb(167, 164, 164);
+    font-weight: lighter;
+}
+.ux_topspace {
+    padding-top: 5em;
+    margin-bottom: 5rem;
 }
 .research-image {
     width: 100%;
@@ -341,7 +448,7 @@ p{
     background: url(./image/orange_trangle.png);
 }
 .bird_logo_bg {
-    background-color: #60ada6;
+    background-color: #b6c868;
 }
 .restaurant_logo_bg {
     background-color: #f3aa33;
@@ -349,63 +456,63 @@ p{
 .brochure_bg {
     background-color: #a55b58;
 }
+.interface {
+    width: 70%;
+    height: auto;
+}
+/* java page */
+.jav-sub-head {
+    font-family: "Avenir Next";
+    color:#faf1e6;
+    font-size:1.5em;
+    text-align: center;
+}
+.button {
+    border-radius: 8px;
+    border: none;
+    margin-left: 4em;
+    color:#9cb336;
+}
 /* media for all */
-@media (min-width: 992px) {
-  .navbar-expand-lg .btn-group {
-    display: none;
- }
-}
-@media (max-width: 353px) {
-   .intro-font-lg {
-       font-size: 1.8rem;
-   }
-    
-}
-@media (min-width: 354px) and (max-width:510px){
-    .intro-font-lg {
-        font-size: 2rem;
-    }
-}
-@media (max-width: 578px) {
-    .profile_image {
-        width: 30%;
-    }
-}
-@media (max-width:320px){
-    .first-layer::before{
-        font-size: 1.5rem;
-    }
-}
-@media (min-width:1190px) {
-    .first-layer::before{
-        font-size: 3rem;
-    }
-
-}
-
-/* @media (min-width: 768px) and (max-width:1025px) {
-    .sub-container {
-      max-width:50vw;
-      margin: 0 auto;
-   }
-  }
-
 @media (max-width: 767px) {
-    .sub-container {
-      max-width:90vw;
-      margin: 0 auto;
-   }
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    .position_of_intro {
+        margin-left: 2em;
+    } 
+    .lable-text {
+        font-size: 1.5em;
+    }
+    .phone-size {
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    .image-collection {
+        width:100%;
+        height:auto;
+    }
+    .bookcover {
+        width: 70%;
+        height: auto;
+    }
+    .interface {
+        width: 90%;
+        height: auto;
+    }
+    .first-layer::before {
+        font-size: 1.5em;
+    }
+    .intro-font-lg {
+        font-size: 1.8rem;
+    }
+    .heading-font {
+        font-size: 1.5em;
+    }
   }
-
-@media (max-width:1024px) {
-    .item-text {
-        color: black;
+  @media (min-width: 992px) {
+  .navbar-expand-lg .btn-group {
+      display: none;
     }
-}
-
-@media (max-width: 415px) {
-    .porfile-position {
-        width: auto;
-        float: none;
-    }
-} */
+  }
