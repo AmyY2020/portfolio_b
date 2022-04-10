@@ -485,7 +485,9 @@ p{
     h1 {
         font-size: 1.5em;
     }
-    
+    .intro-heading-font {
+        font-size: 1.5em;
+    }
     .position_of_intro {
         margin-left: 2em;
     } 
