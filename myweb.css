@@ -363,7 +363,7 @@ p{
 
 .bookcover {
     width: 30%;
-    height: auto;
+    height: 100%;
 }
 
 .logo-nail-height {
@@ -464,8 +464,13 @@ p{
     background-color: #a55b58;
 }
 .interface {
-    width: 70%;
-    height: auto;
+    width: 60%;
+    height: 100%;
+}
+.logo-resturant {
+    width: 100%;
+    height: 100%;
+    transform: scale(0.5);
 }
 /* java page */
 .jav-sub-head {
@@ -510,6 +515,7 @@ p{
         width: 90%;
         height: 100%;
     }
+   
     .first-layer::before {
         font-size: 1.5em;
     }
