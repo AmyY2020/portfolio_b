@@ -251,6 +251,9 @@ p{
 
 
 /* about page */
+.about-intro-position {
+    text-align: center;
+}
 .about-bg {
     background-color: white;
 }
