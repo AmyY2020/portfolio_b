@@ -251,6 +251,10 @@ p{
 
 
 /* about page */
+.flower-img {
+    width: 50%;
+    height: 100%;
+}
 .about-intro-position {
     text-align: center;
 }
@@ -527,6 +531,10 @@ p{
     }
     .heading-font {
         font-size: 1.5em;
+    }
+    .flower-img {
+        width: 20%;
+        height: 100%;
     }
   }
   @media (min-width: 992px) {
