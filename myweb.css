@@ -173,6 +173,7 @@ p{
 .home-intro {
     margin-left: 5em;
 }
+
 .position_of_intro {
     
     margin-top: 20vh;
@@ -479,6 +480,23 @@ p{
     height: 100%;
     transform: scale(0.5);
 }
+/* mobile-version */
+.position_of_intro_mobile {
+    margin-top: 15vh;
+}
+.mobile-button {
+    background-color: #b6c868;
+    color: white;
+    font-size: 24px;
+    font-family: Superclarendon;
+    font-weight: lighter;
+    padding:1em;
+    text-align: start;
+    border-radius: 0px;
+}
+.card-shape {
+    border-radius: 0px;
+}
 /* java page */
 .jav-sub-head {
     font-family: "Avenir Next";
@@ -493,6 +511,11 @@ p{
     color:#9cb336;
 }
 /* media for all */
+@media (min-width:768px) {
+    .mobile-version {
+        display: none;
+    }
+}
 @media (max-width: 767px) {
     h1 {
         font-size: 1.5em;
@@ -535,6 +558,9 @@ p{
     .flower-img {
         width: 20%;
         height: 100%;
+    }
+    .web-version {
+        display: none;
     }
   }
   @media (min-width: 992px) {
