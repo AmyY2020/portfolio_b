@@ -255,6 +255,11 @@ p{
 .about-head-weight {
     font-weight: lighter;
 }
+.about-head {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
 .flower-img {
     width: 80%;
     height: 100%;
@@ -567,6 +572,7 @@ p{
     }
     .about-head {
         text-align: center;
+        justify-content: center;
     }
   }
   @media (min-width: 992px) {
