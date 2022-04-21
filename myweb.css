@@ -252,6 +252,9 @@ p{
 
 
 /* about page */
+.about-head-weight {
+    font-weight: lighter;
+}
 .flower-img {
     width: 80%;
     height: 100%;
@@ -561,6 +564,9 @@ p{
     }
     .web-version {
         display: none;
+    }
+    .about-head {
+        text-align: center;
     }
   }
   @media (min-width: 992px) {
