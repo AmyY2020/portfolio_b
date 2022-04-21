@@ -253,7 +253,7 @@ p{
 
 /* about page */
 .flower-img {
-    width: 50%;
+    width: 80%;
     height: 100%;
 }
 .about-intro-position {
@@ -556,7 +556,7 @@ p{
         font-size: 1.5em;
     }
     .flower-img {
-        width: 20%;
+        width: 50%;
         height: 100%;
     }
     .web-version {
